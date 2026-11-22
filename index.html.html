@@ -1,0 +1,229 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Himani | My Portfolio</title>
+
+    <!-- Connect CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+
+            <h2 class="logo">Himani<span>.</span></h2>
+            <button id="themeToggle">🌙</button>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <h3>WELCOME TO MY PORTFOLIO</h3>
+
+            <h1>Hello, I'm <span>Himani</span></h1>
+
+            <h2>I'm a <span id="typing"></span></h2>
+
+            <p>
+                I am passionate about technology,
+                graphic designing, creativity and learning
+                new things.
+            </p>
+
+            <a href="#projects" class="btn">
+                Explore My Work
+            </a>
+
+        </div>
+
+        <div class="hero-image">
+           <img 
+    src="https://instagram.fixc1-8.fna.fbcdn.net/v/t51.82787-19/918725289_18015875531993859_1448728222852123928_n.jpg?_nc_cat=105&_nc_map=urlgen_bucketless&ig_cache_key=GKmiwjYD82blVwFAABgNL5uk6hoUbmNDAQAB0j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=CBdq_BHDSQIQ7kNvwG0Fkow&_nc_oc=AdoOQwUh2eByR4sQxTo5r_6gv2ZhJNfcRIpj17Gh_m0sGHHkTr3q_4cJ3I1MkfW0dA7uxuUT-gWEG_7HBWQVApbE&_nc_zt=24&_nc_ht=instagram.fixc1-8.fna&_nc_gid=lBqF_VyLa1NVEoZ-_BlgnQ&_nc_ss=7b6a8&_nc_ct=RQosPBUCFQIAAAA&oh=00_AQR2uXFheB0XYVnHAC_W6xjojX1NzxSmSleI2kY_r_XJ3g&oe=6B08B636"
+    alt="My Profile Photo"
+    class="profile-photo">
+        </div>
+
+    </section>
+    <style>
+        /* Project cards - Dark Mode */
+body.dark-mode #projects .card {
+    background-color: #252525 !important;
+    color: white !important;
+    border: 1px solid #ff69b4;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+body.dark-mode #projects .card h3,
+body.dark-mode #projects .card p {
+    color: white !important;
+}
+    </style>
+
+
+    <!-- About Section -->
+    <section id="about" class="section">
+
+        <h2>About Me</h2>
+
+        <p>
+            Hello! My name is Himani.
+            I am a Class 11 Humanities student.
+            I am also learning computer skills through CCWM.
+
+            My interests include web designing,
+            graphic designing, content creation
+            and technology.
+        </p>
+
+    </section>
+
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+
+        <h2>My Education</h2>
+
+        <div class="card">
+            <h3>Class 11 - Humanities</h3>
+            <p>Currently pursuing senior secondary education.</p>
+        </div>
+
+        <div class="card">
+            <h3>CCWM Course</h3>
+            <p>Learning web designing and multimedia.</p>
+        </div>
+
+    </section>
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+
+        <h2>My Skills</h2>
+
+        <div class="skills">
+
+            <div class="card">
+                <h3>HTML</h3>
+                <p>Website Structure</p>
+            </div>
+
+            <div class="card">
+                <h3>CSS</h3>
+                <p>Website Designing</p>
+            </div>
+
+            <div class="card">
+                <h3>JavaScript</h3>
+                <p>Website Interactivity</p>
+            </div>
+
+            <div class="card">
+                <h3>Graphic Design</h3>
+                <p>Creative Designing</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+
+        <h2>My Projects</h2>
+
+        <div class="card">
+            <h3>Personal Portfolio Website</h3>
+            <p>A website to showcase my skills and work.</p>
+        </div>
+
+        <div class="card">
+            <h3>Beauty Salon Website</h3>
+            <p>A modern website for a beauty salon.</p>
+        </div>
+
+        <div class="card">
+            <h3>Graphic Design</h3>
+            <p>Creative posters and digital designs.</p>
+        </div>
+
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+
+        <h2>Contact Me</h2>
+
+        <form id="contactForm">
+
+            <input type="text"
+                   id="name"
+                   placeholder="Your Name"
+                   required>
+
+            <input type="email"
+                   id="email"
+                   placeholder="Your Email"
+                   required>
+
+            <textarea id="message"
+                      placeholder="Your Message"
+                      required></textarea>
+
+            <button type="submit">Send Message</button>
+
+        </form>
+
+        <p id="formMessage"></p>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>© 2026 Himani | All Rights Reserved</p>
+
+    </footer>
+
+
+    <!-- Connect JavaScript -->
+<button id="scrollTopBtn" title="Go to top">↑</button>
+
+<ul class="nav-links"></ul>
+<li>
+    <button id="themeToggle">🌙</button>
+</li>
+<div id="loader">
+    <div class="loader-circle"></div>
+    <h2>Himani Portfolio</h2>
+    <p>Loading creativity...</p>
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
